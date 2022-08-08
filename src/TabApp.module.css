@@ -1,0 +1,162 @@
+.App {
+    width: 400px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 3px solid royalblue;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px
+}
+
+.x {
+    background-color: dimgrey;
+}
+
+.a {
+    -webkit-appearance: button;
+    border-radius: 15px;
+    width: 80px;
+    height: 40px;
+    background-color: royalblue;
+    border-width: 0px;
+    text-decoration-color: black;
+}
+
+.text {
+
+    font-weight: 500;
+
+}
+
+.button1 {
+    grid-area: b1;
+   /* position: relative;*/
+    margin-left: 25%;
+    margin-top: 25%;
+
+}
+.buttonError1 {
+    grid-area: b1;
+    /* position: relative;*/
+    margin-left: 25%;
+    margin-top: 25%;
+    border: 1px solid red;
+
+}
+
+.button2 {
+    grid-area: b2;
+    /*position: relative;*/
+    margin-left: 30%;
+    margin-top: 25%;
+}
+
+.buttons {
+    padding: 5px;
+    border-radius: 15px;
+    margin: 0 auto;
+
+    width: 350px;
+    height: 30%;
+    /*position: relative;*/
+    margin-top: 5%;
+    border: 3px solid royalblue;
+    display: grid;
+    grid-template-areas:
+"b1 b2";
+
+}
+.vTab1 {
+    position: absolute;
+
+    left: 5%;
+    top: 15%;
+    font-size: 25px;
+    font-weight: 500;
+    /*width: 100px;
+    margin: 0 auto;
+    font-size: 70px;
+    font-weight: 500;*/
+    /*margin-top: 55px;
+    margin-left: 170px;
+    font-size: 70px;
+    font-weight: 500;*/
+}
+.vTab2 {
+    position: absolute;
+
+    left: 5%;
+    top: 55%;
+    font-size: 25px;
+    font-weight: 500;
+    /*width: 100px;
+    margin: 0 auto;
+    font-size: 70px;
+    font-weight: 500;*/
+    /*margin-top: 55px;
+    margin-left: 170px;
+    font-size: 70px;
+    font-weight: 500;*/
+}
+
+.tab {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 3px solid royalblue;
+    width: 350px;
+    height: 225px;
+    border-radius: 20px;
+}
+.inputError1{
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 5px;
+    width: 90px;
+    height: 20px;
+    position: relative;
+    margin-top: 12%;
+    margin-left: 50%;
+}
+.inputError2{
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 5px;
+    width: 90px;
+    height: 20px;
+    position: relative;
+    margin-top: 14%;
+    margin-left: 50%;
+}
+
+
+
+.p1{
+    text-align: center;
+    border-radius: 5px;
+    width: 90px;
+    height: 20px;
+    border: 3px solid royalblue;
+    position: relative;
+    margin-top: 12%;
+    margin-left: 50%;
+
+
+}
+.p2{
+    text-align: center;
+    border-radius: 5px;
+    width: 90px;
+    height: 20px;
+    border: 3px solid royalblue;
+    position: relative;
+    margin-top: 14%;
+    margin-left: 50%;
+}
+
+.classError{
+    color: red;
+    position: relative;
+    margin-left: 50%;
+}

@@ -1,0 +1,43 @@
+.vTab {
+    position: absolute;
+
+    left: 45%;
+    top: 30%;
+    font-size: 70px;
+    font-weight: 500;
+    /*width: 100px;
+    margin: 0 auto;
+    font-size: 70px;
+    font-weight: 500;*/
+    /*margin-top: 55px;
+    margin-left: 170px;
+    font-size: 70px;
+    font-weight: 500;*/
+}
+
+.tab {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 3px solid royalblue;
+    width: 350px;
+    height: 225px;
+    border-radius: 20px;
+}
+
+.aVTab {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    font-size: 70px;
+    font-weight: 500;
+    color: red;
+    /*width: 100px;
+    margin: 0 auto;
+    font-size: 70px;
+    font-weight: 500;*/
+    /*margin-top: 55px;
+    margin-left: 170px;
+    font-size: 70px;
+    font-weight: 500;*/
+}
